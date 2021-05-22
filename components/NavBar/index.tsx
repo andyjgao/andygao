@@ -1,9 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-interface Props {}
-
-export const NavBar = (props: Props) => {
+export const NavBar = () => {
   type INavObject = {
     [key: string]: string;
   };
